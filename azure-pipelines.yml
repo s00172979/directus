@@ -30,7 +30,7 @@ steps:
   inputs:
     credentialsOption: 'serviceEndpoint'
     serverEndpoint: 'student-dashboard-directus ftp'
-    rootDirectory: '/site/www'
+    rootDirectory: ''
     filePatterns: '**'
     remoteDirectory: '/upload/$(Build.BuildId)/'
     clean: false
